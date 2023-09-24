@@ -1,27 +1,46 @@
-/* Reset some default styles for the page */
+
 body, h1, h3, p {
     margin: 0;
     padding: 0;
 }
+/* Reset some default styles for the page */
 
-/* Apply general styles to the page */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
+/* Apply general styles to the page */
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+    background-image: url(./header-background-image.png);
+    /* learned this from Youtube Kevin Powell */
+    /* background-color: #9babf1; */
+    color: #dba40b;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: left; */
+    /* gives me options for where to move the header info */
+    padding: 50px;
+}
+.profile {
+    /* background-color: aqua; */
 }
 
 .profile img {
-    width: 200px; /* Adjust the size of the profile picture as needed */
-    border-radius: 50px;
+    width: 250px; /* Adjust the size of the profile picture as needed */
+    border-radius: 25px;
     margin-bottom: 10px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.055),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.086),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.112),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.14),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.175),
+  100px 100px 80px rgba(0, 0, 0, 0.25)
+;
 }
+/* learned this shadowing from https://shadows.brumm.af/ */
 
 main {
     max-width: 1200px;
@@ -41,7 +60,7 @@ main {
     margin-bottom: 20px;
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-item img {
