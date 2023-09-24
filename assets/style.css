@@ -18,8 +18,8 @@ header {
 }
 
 .profile img {
-    width: 150px; /* Adjust the size of the profile picture as needed */
-    border-radius: 50%;
+    width: 200px; /* Adjust the size of the profile picture as needed */
+    border-radius: 50px;
     margin-bottom: 10px;
 }
 
@@ -33,7 +33,7 @@ main {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .portfolio-item {
