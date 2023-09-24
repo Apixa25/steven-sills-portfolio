@@ -51,7 +51,9 @@ p {
     justify-content: center;
     padding: 0 50px 20px 50px;
     box-shadow: 10px 10px 10px;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: normal;
+
 }
 
 .profile {
@@ -69,8 +71,7 @@ p {
   12.5px 12.5px 10px rgba(0, 0, 0, 0.112),
   22.3px 22.3px 17.9px rgba(0, 0, 0, 0.14),
   41.8px 41.8px 33.4px rgba(0, 0, 0, 0.175),
-  100px 100px 80px rgba(0, 0, 0, 0.25)
-;
+  100px 100px 80px rgba(0, 0, 0, 0.25);
 }
 /* learned this shadowing from https://shadows.brumm.af/ */
 
@@ -82,9 +83,14 @@ main {
 
 /* Style the portfolio section */
 .portfolio {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-image: url(./grass-bottom-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0 0 10px;
 }
 
 .portfolio-item {
