@@ -30,6 +30,20 @@ header {
     /* gives me options for where to move the header info */
     padding: 50px;
 }
+
+.about-me2 {
+    display: flex;
+    justify-content: left;
+    padding: 0 0 0 50px;
+    font-size: 28px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 50px;
+}
+
 .profile {
     /* background-color: aqua; */
 }
