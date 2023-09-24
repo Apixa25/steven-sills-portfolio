@@ -13,10 +13,17 @@ body {
 
 header {
     background-image: url(./header-background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: top 200px;
+    padding-bottom: 200px;
     /* learned this from Youtube Kevin Powell */
     /* background-color: #9babf1; */
     color: #dba40b;
     font-size: 30px;
+    text-shadow: 10px 10px 10px black;
+    -webkit-text-stroke: 1px black;
+    /* learned this from Google */
     display: flex;
     justify-content: space-evenly;
     /* text-align: left; */
@@ -29,6 +36,7 @@ header {
 
 .profile img {
     width: 250px; /* Adjust the size of the profile picture as needed */
+    border-style: ridge;
     border-radius: 25px;
     margin-bottom: 10px;
     box-shadow:
