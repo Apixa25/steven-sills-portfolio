@@ -127,12 +127,15 @@ main {
 }
 
 .portfolio-item:hover {
-    border-radius: 15px;
+    border-radius: 25px;
     transition: all 0.5s ease-in-out;
-    box-shadow: inset 0px 0px 8px
-    color red, 0 0 15px
-    color rebeccapurple;
 }
+
+.portfolio-item:hover, .portfolio-item h3 {
+    box-shadow: inset 0px 0px 8px
+    #f7cd95, 0px 0px 100px
+    #f7cd95;
+    }
 
 @media screen and (max-width: 768px) {
     .portfolio-item {
