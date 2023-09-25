@@ -137,6 +137,10 @@ main {
     #f7cd95;
     }
 
+.portfolio-item:nth-child(1) {
+    flex-grow: 0.25;
+}
+
 @media screen and (max-width: 768px) {
     .portfolio-item {
         flex: 0 0 calc(50% - 20px); /* Adjust for 2 columns on tablets */
