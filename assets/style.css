@@ -91,8 +91,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-basis: 20rem;
     background-image: url(./grass-bottom-image.jpeg);
-    background-size: cover;
+    background-size: stretch;
     background-repeat: no-repeat;
     padding: 10px 0 0 10px;
     box-shadow: 10px 10px 10px;
@@ -106,18 +107,31 @@ main {
     border: dashed; color: #043610;
 }
 
+.portfolio-item h3{
+    color: #043610;
+    text-align: left;
+    padding: 2%;
+    margin: 5px;
+    z-index: 2;
+    border: solid 2px;
+    background-color: #f7cd95;
+    border-radius: 5px;
+    max-width: 100%;
+    position: relative;
+    margin-top: -10%;
+}
+
 .portfolio-item img {
     max-width: 100%;
     height: auto;
 }
 
-.work {
-    border: dashed var(--textcolor);
-    width: 25%;
-    min-height:auto;
-    padding: 1%;
-    margin-top: 2%;
-    
+.portfolio-item:hover {
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 8px
+    color red, 0 0 15px
+    color rebeccapurple;
 }
 
 @media screen and (max-width: 768px) {
